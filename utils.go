@@ -10,9 +10,10 @@ const (
 )
 
 func main() {
-	fmt.Println(getVersion())
+	fmt.Println(GetVersion())
 }
 
-func getVersion() string {
+// GetVersion ->
+func GetVersion() string {
 	return ver
 }
