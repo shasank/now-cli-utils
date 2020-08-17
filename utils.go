@@ -1,19 +1,11 @@
 package utils
 
-import (
-	"fmt"
-)
-
 // Constants
 const (
-	ver = "v1.0"
+	ver = "v1.0.4"
 )
 
-func main() {
-	fmt.Println(GetVersion())
-}
-
-// GetVersion ->
+// GetVersion -> Return a version
 func GetVersion() string {
 	return ver
 }
