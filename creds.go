@@ -12,6 +12,8 @@ const (
 	Service = "Now CLI"
 )
 
+var keychain keytar.Keychain
+
 func setCredentials(Account string, Password string) {
 	//fmt.Println("In setCredentials fn")
 	//fmt.Println("Service: ", Service)
