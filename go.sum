@@ -1,0 +1,3 @@
+github.com/danieljoos/wincred v1.0.2/go.mod h1:SnuYRW9lp1oJrZX/dXJqr0cPK5gYXqx3EJbmjhLdK9U=
+github.com/havoc-io/go-keytar v0.0.0-20190805193312-c9afc30c49ac h1:eaeUF94PxN+op5u4b8qSUEHMORA8Dho4vHaU4MRD7Sg=
+github.com/havoc-io/go-keytar v0.0.0-20190805193312-c9afc30c49ac/go.mod h1:WUcW8txQ1HQfzCSD8PwGkPAHcz6rl/lX5nRRC+9utUo=
