@@ -22,6 +22,14 @@ func GetVersion() string {
 	return ver
 }
 
+// VersionCompatibilityCheck ->
+func VersionCompatibilityCheck(cliVersion string) {
+	if cliVersion != GetVersion() {
+		fmt.Println("Incompatible version of core-cli-utils")
+		os.Exit(1)
+	}
+}
+
 // CreateFile ->
 func CreateFile() {
 	// check if file exists
