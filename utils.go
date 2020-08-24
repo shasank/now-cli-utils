@@ -8,7 +8,7 @@ import (
 
 // Constants
 const (
-	ver = "v1.3.0"
+	ver = "v1.4.0"
 )
 
 var path = "test.txt"
@@ -25,6 +25,7 @@ func GetVersion() string {
 // VersionCompatibilityCheck ->
 func VersionCompatibilityCheck(cliVersion string) {
 	if cliVersion != GetVersion() {
+		fmt.Println("os.args from utils", os.Args)
 		fmt.Println("Incompatible version of core-cli-utils")
 		os.Exit(1)
 	}
