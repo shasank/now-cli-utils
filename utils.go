@@ -8,7 +8,7 @@ import (
 
 // Constants
 const (
-	ver = "v1.2.0"
+	ver = "v1.3.0"
 )
 
 var path = "test.txt"
